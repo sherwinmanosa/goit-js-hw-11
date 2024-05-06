@@ -13,6 +13,12 @@ body {
   margin: 0;
 }
 
+h1 {
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
 img {
   display: block;
   width: 270px;
@@ -35,14 +41,16 @@ img {
 /* Search Field */
 .header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px 0;
-  background-color: #1565c0;
+  background-color: darkblue;
 }
 
 .search-form-input {
   padding-left: 15px;
+  height: 20px;
   border: none;
   outline: none;
 }
